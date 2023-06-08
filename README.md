@@ -5,7 +5,7 @@ quick-revision of router,contextapi,useContxt Hook , useReducer and how to manag
 [codeSandBox🔗](https://y33vk3.csb.app/show)
 
 
-##2. react_assigment2
+## 2. react_assigment2
 React User Data Fetching and Display
 
 This repository contains a React application that fetches user data from an API and displays it in a card-based layout. It demonstrates the implementation of fetching data from an external API and rendering it in a React component.
