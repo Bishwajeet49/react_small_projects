@@ -1,0 +1,39 @@
+*{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  background-color: #87CEFA;
+}
+.container{
+  display: flex;
+  min-height:100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inp-form{
+  margin-top: 40px;
+  position: sticky;
+  top:5px;
+  z-index: 55;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3,max-content);
+}
+
+@media only screen and (max-width: 1050px) {
+  /* For tablets: */
+  .card-container{
+    grid-template-columns: repeat(2,max-content);
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  .card-container{
+    grid-template-columns: repeat(1,max-content);
+  }
+}
